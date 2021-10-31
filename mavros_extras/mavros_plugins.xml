@@ -88,6 +88,8 @@
   <class name="keyboard_command" type="mavros::extra_plugins::KeyboardCommandPlugin" base_class_type="mavros::plugin::PluginBase">
     <description>Accepts keyboard command.</description>
   </class>
-
+  <class name="actuator_outputs_drl" type="mavros::extra_plugins::ActuatorOutputsDRLPlugin" base_class_type="mavros::plugin::PluginBase">
+    <description>Accepts actuator outputs drl.</description>
+  </class>
 
 </library>

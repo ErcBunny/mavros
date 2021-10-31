@@ -95,6 +95,7 @@ add_library(mavros_extras
   src/plugins/wheel_odometry.cpp
 
   src/plugins/keyboard_command.cpp
+  src/plugins/actuator_outputs_drl.cpp
 )
 add_dependencies(mavros_extras
   ${catkin_EXPORTED_TARGETS}
